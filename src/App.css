@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: rgb(73, 85, 88);
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.shop {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.itemDetails {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 20px;
+ margin: 20px;
+}
